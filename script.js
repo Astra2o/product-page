@@ -24,7 +24,7 @@ const featuredImg = document.getElementById('featuredimg')
     {src:"https://m.media-amazon.com/images/I/51yN-wPWqHL._SY741_.jpg"}
 ]
 
-let selectedColor = null;
+let selectedColor = 'yellow';
 let selectedSize = 'small';
 console.log(images[0].src);
 // fetch data through api
