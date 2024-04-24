@@ -1,7 +1,7 @@
 # Coding Assessment L-2 Code --- 
 
 this is  coding assessment l2 by Marmeto . 
-
+ **live preview: https://astra2o.github.io/product-page/**
 ## Getting Started
 
 1. **Clone or Download:**
