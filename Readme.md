@@ -1,6 +1,6 @@
 # Coding Assessment L-2 Code --- 
 
-this is  coding assessment l2 by . We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+this is  coding assessment l2 by Marmeto . 
 
 ## Getting Started
 
