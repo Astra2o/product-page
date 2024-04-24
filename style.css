@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+#wrapper{
+display: flex;
+flex-direction: row;
+gap: 10%;
+justify-content: center;
+/* align-items: center; */
+
+padding: 50px 100px;
+
+}
+.left{
+  /* width: 40%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .right{
+/* width: 50%; 
+}
+ */
+#imgcontainer{
+  width: 24rem;
+  height: 29rem;
+  background: #000;
+}
+#featuredimg{
+ width: 100%;
+ height: 100%;
+
+  object-fit: cover;
+}
+#otherImgContainer{
+  display: flex;
+  padding-top: 50px;
+  gap: 20px;
+}
+
+.activeimg{
+  border: 2px solid #3A4980 ;
+}
+.miniimg{
+  width: 100px;
+  height: 100px;
+ object-fit: cover;
+ border-radius: 8px;
+}
+
+#title{
+    font-size: 1.75rem;
+    font-weight: 800;
+    border-bottom: solid #e4e4e4 2px;
+    padding: 18px 0;
+}
+
+#brandName,#chooseColorcontainer h3 ,#chooseSizecontainer h3{
+  color:#b9bbbf ;
+  font-size: 1rem;
+}
+
+#discountedPriceContainer{
+display: flex;
+align-items: center;
+
+}
+#discountedPrice{
+  color: #3A4980;
+  font-size:2.125rem ;
+}
+#discountPercent{
+  padding-left: 1.25rem;
+font-size: 1.3125rem;
+color: #ff0000;
+opacity: .5;
+}
+#mrp{
+  font-size: 1.3125rem;
+  text-decoration: line-through;
+  color: #000;
+  opacity: 50%;
+  
+}
+.price{
+  border-bottom: solid #e4e4e4 2px;
+  padding: 18px 0  14px 0;
+}
+.sizes{
+  background: #EDF0F8;
+  color: #3A4980;
+  font-size: .875rem;
+  padding:  .4375rem .625rem;
+  display: flex;
+  gap: 5px;
+  /* grid-column: 1fr 1fr; */
+  align-items: center;
+  justify-content: center;
+  border-radius: .5rem;
+
+}
+#chooseColorcontainer{
+  border-bottom:solid #e4e4e4 2px ;
+  padding: 18px 0  14px 0;
+  
+}
+#chooseSizecontainer{
+  padding: 18px 0  14px 0;
+  
+}
+.coloroptcon{
+  padding: 7px;
+  /* border: transparent solid 2px; */
+}
+.activecolor{
+  padding: 4px;
+  border: #000 solid 2px;
+    box-sizing: border-box;
+
+}
+#sizeoption{
+  accent-color: #3A4980;
+}
+.coloropt{
+  height: 3.125rem;
+  width: 3.125rem;
+ position: relative;
+
+  box-sizing: border-box;
+}
+#chooseColor{
+  display: flex;
+  gap: .5rem;
+  margin-top: .875rem;
+  /* background: #000; */
+}
+
+#chooseSize{
+  display: flex;
+  gap: .5rem;
+  margin-top: .875rem;
+}
+
+
+
+.container{
+  display: flex;
+  padding: 20px;
+ 
+  gap: 20px;
+}
+.quantityContainer{
+ 
+  border-radius: 30px;
+  background: #f3f3f3;
+  padding:  5px 10px;
+ width: 11rem;
+ height: 3.2rem;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+  
+}
+#minus{
+  
+  border: none;
+  background: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  /* border: #000 solid 1px; */
+  font-size: 1rem;
+  font-weight: bold;
+  color:#3A4980;
+  
+}
+#quantity{
+  font-size: 1.375rem;
+  font-weight: bold;
+  color:#3A4980;
+  background: #f3f3f3;
+}
+#plus{
+  background: transparent;
+  border: none;
+  background: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  /* border: #000 solid 1px; */
+  font-size: 1rem;
+  font-weight: bold;
+  color:#3A4980;
+}
+
+#addCart{
+  width: 19rem;
+  height: 3.3rem;
+  border-radius: 30px;
+background-color: #3A4980;
+color: white;
+font-size: 21px;
+border: none;
+}
+
+.addingcart{
+  background-color: #E7F8B7;
+  
+  width:fit-content ;
+  font-weight: 700;
+  color: #000;
+  border-radius: .5rem;
+  padding: 5px 28px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#description{
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  color: #a3a3a3;
+  font-weight: 300;
+  padding-top: 1.25rem;
+  border-top: solid #e4e4e4 2px;
+}
+
+
+
+@media (min-width: 768px) and (max-width:1024px)  {
+  
+  .right{
+          width: 45%;
+  }
+}
+
+@media  (max-width: 768px)  {
+  /* Styles for screens between 768px and 1024px */
+  #wrapper{
+    flex-direction: column;
+    padding: 10px;
+
+    
+  }
+  .right{
+    width:100%;
+
+}
+.left{
+  width: 100%;
+}
+  #brandName{
+    padding: 20px 20px 0;
+  } 
+
+  
+}
+
+@media (max-width: 480px){
+  .miniimg{
+    height: 80px;
+    width: 80px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, #873572, black);
+}
+a {
+  display: inline-block;
+  color: lightgrey;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.23);
+  color: white;
+  transform: scale(1.03);
+  text-decoration: none;
+}
+a:active {
+  transform: scale(0.98);
+} */
+
