@@ -105,6 +105,7 @@ opacity: .5;
   font-size: .875rem;
   padding:  .4375rem .625rem;
   display: flex;
+  
   gap: 5px;
   /* grid-column: 1fr 1fr; */
   align-items: center;
@@ -150,6 +151,7 @@ opacity: .5;
 
 #chooseSize{
   display: flex;
+  flex-wrap: wrap;
   gap: .5rem;
   margin-top: .875rem;
 }
